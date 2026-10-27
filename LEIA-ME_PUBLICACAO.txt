@@ -1,0 +1,40 @@
+CELEBRE EXPERIENCE — REFINAMENTO FINAL (21/10/2026)
+
+ATUALIZAÇÕES
+- Legenda da foto esquerda: A ALEGRIA DE COMPARTILHAR
+- Legenda da foto direita: JUNTOS NESSA HISTÓRIA
+- Seção 'Os detalhes fazem toda a diferença': quatro benefícios (beca completa, canudo personalizado, cenário clean, cenário especial).
+- Photobook Ingá: apresentação discreta com duas fotografias fornecidas.
+
+PRESERVADO
+- Layout da página, fotos anteriores e identidade da Ingá.
+- Contagem regressiva até 07/11/2026 às 08h no horário de Brasília.
+- Formulário Netlify Forms (nome interesse-inga-formaturas) e redirecionamento /obrigado.
+- Favicon e imagem de compartilhamento.
+
+PARA PUBLICAR (MESMO ENDEREÇO)
+1. Extraia este ZIP.
+2. Acesse seu projeto ingaformaturas no Netlify.
+3. Em Deploys, faça upload da pasta extraída, com index.html e assets/ na raiz.
+4. Confirme o funcionamento na URL publicada.
+5. Envie um cadastro realista de teste e confirme o recebimento e aviso por e-mail.
+
+OBS.: O photobook está apresentado como uma opção, sujeita a disponibilidade e condições informadas pela equipe.
+
+
+ATUALIZAÇÃO 21/10/2026 — NOVA SEÇÃO VALORES
+A seção Valores foi inserida após Photobook e antes de Próxima data.
+Pacote inicial: a partir de 4x R$ 88,50 no cartão de crédito (10 imagens digitais escolhidas pelo formando). Beca completa para uso na sessão.
+Fotografias impressas são outras opções, mediante consulta à equipe.
+O formulário de cadastro, contador e recursos da versão anterior foram mantidos sem alteração.
+Após publicação, confira layout mobile e faça um cadastro teste real no Netlify Forms.
+
+
+ATUALIZAÇÃO — INVESTIMENTO REFINADO
+- Pacote inicial com 10 fotos digitais destacado JUNTO DO VALOR (4x R$ 88,50 no cartão).
+- Benefícios destacados: beca disponível para uso exclusivo durante a sessão, sem custo adicional; tratamento profissional das imagens (luz, cor, acabamento).
+- Fotografias impressas e photobook permanecem apresentados como opções separadas, sem sugerir que fazem parte do pacote inicial.
+- Mantidos os demais arquivos e as funções: fotos, calendário/contagem regressiva, formulário Netlify e página de confirmação.
+
+PUBLICAÇÃO
+Extraia o ZIP e faça upload da pasta onde estiver index.html e assets/ diretamente em Deploys no MESMO projeto ingaformaturas. Teste um cadastro após publicar.

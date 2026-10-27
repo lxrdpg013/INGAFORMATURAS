@@ -430,7 +430,67 @@
 @media(max-width:650px){.experience-details{padding:50px 0 55px}.details-shell{gap:20px}.details-intro h2{font-size:clamp(32px,8vw,42px);letter-spacing:-1.6px;margin:16px 0 13px}.details-intro>p{font-size:12px;line-height:1.75}.details-grid{grid-template-columns:1fr;margin-top:0}.detail-point{min-height:0;padding:19px 0;gap:13px;border-bottom:1px solid rgba(217,180,248,.13)!important}.detail-point:last-child{border-bottom:0!important}.detail-symbol{width:42px;height:42px;flex-basis:42px}.detail-point h3{font-size:16px;margin:5px 0}.detail-point p{max-width:none;font-size:11px}.photobook-strip{padding-bottom:62px}.photobook-panel{grid-template-columns:1fr;gap:18px;padding:26px 22px 22px;border-radius:22px}.photobook-copy h2{font-size:clamp(27px,8vw,35px);letter-spacing:-1.1px}.photobook-copy>p:not(.photobook-note){font-size:11.7px}.photobook-specs{font-size:9px;margin-top:16px}.photobook-note{font-size:9px;margin-top:14px}.photobook-images{min-height:185px}.photobook-image{width:31%;min-width:111px;max-width:135px}.photobook-image-back{transform:translate(8px,4px) rotate(-5deg)}.photobook-image-front{transform:translate(-8px,0) rotate(5deg)}}
 @media(max-width:365px){.photobook-panel{padding:25px 17px 21px}.photobook-specs span:not(:first-child):before{padding:0 5px}.photobook-image{width:37%}}
 
-</style></head>
+</style>
+<style>
+/* Celebre Experience — bloco de investimento / 21-10-2026 */
+.pricing-section{position:relative;isolation:isolate;overflow:hidden;padding:88px 0 92px;background:
+  radial-gradient(ellipse 54% 78% at 95% 12%,rgba(114,55,178,.15),transparent 71%),
+  radial-gradient(ellipse 47% 60% at 4% 110%,rgba(255,124,84,.055),transparent 72%),#0d0816}
+.pricing-section::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:-1;background:
+  radial-gradient(circle 390px at 98% 53%,transparent 99.2%,rgba(179,131,248,.075) 99.4%,transparent 99.7%)}
+.pricing-layout{display:grid;grid-template-columns:minmax(0,1.03fr) minmax(0,.97fr);gap:clamp(32px,5vw,75px);align-items:center}
+.pricing-intro{padding:14px 0 13px}
+.pricing-section .section-kicker{color:#ffaf79}
+.pricing-intro h2{font-size:clamp(37px,4.65vw,66px);line-height:1.09;letter-spacing:-2.8px;font-weight:800;margin:21px 0 23px;text-wrap:balance}
+.pricing-intro h2 span{color:#ff965b}
+.pricing-intro>p{color:#c8bad9;font-size:14px;line-height:1.8;max-width:465px}
+.pricing-highlights{display:grid;gap:22px;margin-top:37px}
+.pricing-highlight{display:flex;gap:16px;align-items:center}
+.pricing-highlight-icon{width:47px;height:47px;flex:none;display:grid;place-items:center;border-radius:16px;background:#a165ff19;border:1px solid #b989f331;color:#e3c8ff}
+.pricing-highlight-icon svg{width:23px;height:23px}
+.pricing-highlight div{display:flex;flex-direction:column;gap:3px}
+.pricing-highlight strong{font-size:13px;color:#fff8ff;font-weight:750}
+.pricing-highlight div>span{font-size:11px;line-height:1.55;color:#ac9dbf}
+.pricing-offer{position:relative;overflow:hidden;border:1px solid rgba(230,199,255,.18);border-radius:29px;padding:42px 40px 37px;background:
+  radial-gradient(ellipse 75% 64% at 100% 0%,rgba(255,137,77,.16),transparent 74%),
+  radial-gradient(ellipse 75% 90% at 0% 95%,rgba(140,67,244,.2),transparent 78%),
+  linear-gradient(136deg,rgba(51,24,79,.9),rgba(29,17,52,.98) 80%);
+  box-shadow:0 24px 70px rgba(0,0,0,.22),inset 0 1px #ffffff13}
+.pricing-offer::before{content:"";position:absolute;width:270px;height:270px;right:-173px;top:-160px;border:1px solid #ffab7840;border-radius:50%;pointer-events:none}
+.pricing-spark{position:absolute;right:36px;top:27px;color:#ffb57b;font-size:26px;font-weight:300}
+.pricing-offer-eyebrow{font-size:10px;letter-spacing:2.45px;font-weight:800;color:#ffc293}
+.pricing-amount{display:flex;align-items:baseline;gap:7px;margin:18px 0 4px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pricing-installments{font-size:clamp(45px,4.5vw,66px);line-height:1;font-weight:800;letter-spacing:-3px;color:#fff8fb}
+.pricing-installments small{font-size:.67em;letter-spacing:0;font-weight:500;margin-left:3px}
+.pricing-currency{font-size:clamp(19px,2.1vw,29px);font-weight:750;color:#ffb580}
+.pricing-number{font-size:clamp(43px,4.55vw,65px);letter-spacing:-3.8px;line-height:1.15;font-weight:850;color:#ffad73}
+.pricing-number sup{font-size:18px;vertical-align:super;letter-spacing:0;margin-left:1px}
+.pricing-payment{color:#d7c4ea;font-weight:600;font-size:12px}
+.pricing-separator{height:1px;background:#ffffff2b;margin:28px 0 23px}
+.pricing-package{font-size:11.5px;line-height:1.8;color:#cbbbdc;max-width:400px}
+.pricing-package strong{color:#f7ebff}
+.pricing-cta{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:26px;background:linear-gradient(100deg,#ffc186,#ff975d);border-radius:15px;color:#281439;padding:16px 19px;font-weight:800;font-size:12px;transition:transform .2s,filter .2s;box-shadow:0 13px 35px rgba(255,125,68,.15)}
+.pricing-cta:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.pricing-cta span{font-size:21px;line-height:1}
+.pricing-extra{margin-top:31px;padding-top:21px;border-top:1px solid rgba(221,192,251,.12);color:#a99ab9;line-height:1.7;font-size:11px}
+.pricing-extra span{font-size:15px;color:#ff9f6d;margin-right:8px}
+.pricing-extra strong{color:#e2d3f1}
+@media(max-width:960px){.pricing-layout{gap:24px}.pricing-offer{padding:33px 27px 29px}.pricing-intro h2{font-size:clamp(33px,4.2vw,52px);letter-spacing:-1.6px}.pricing-number{font-size:clamp(36px,4.5vw,55px);letter-spacing:-2.7px}.pricing-installments{font-size:clamp(39px,4.5vw,57px)}}
+@media(max-width:750px){.pricing-section{padding:63px 0 69px}.pricing-layout{grid-template-columns:1fr;gap:27px}.pricing-intro{padding:0}.pricing-intro h2{font-size:clamp(34px,8.4vw,49px);line-height:1.11;margin:18px 0}.pricing-intro>p{font-size:12.5px}.pricing-highlights{margin-top:25px;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.pricing-highlight{gap:10px;align-items:flex-start}.pricing-highlight-icon{width:39px;height:39px;border-radius:13px}.pricing-highlight-icon svg{width:21px;height:21px}.pricing-highlight strong{font-size:11px}.pricing-highlight div>span{font-size:10px}.pricing-offer{max-width:590px;width:100%;margin:auto}.pricing-number{font-size:clamp(41px,9vw,60px)}.pricing-installments{font-size:clamp(44px,9vw,60px)}.pricing-extra{margin-top:25px}}
+@media(max-width:410px){.pricing-highlights{grid-template-columns:1fr;gap:14px}.pricing-offer{padding:30px 23px 25px}.pricing-amount{gap:5px}.pricing-installments{font-size:46px}.pricing-number{font-size:clamp(37px,10.5vw,46px);letter-spacing:-2.8px}.pricing-currency{font-size:19px}.pricing-number sup{font-size:14px}.pricing-extra{font-size:10.5px}}
+
+/* Aprimoramento da seção Valores: benefícios de experiência + quantidade no pacote */
+.pricing-highlight{align-items:flex-start}
+.pricing-highlight-icon{margin-top:1px}
+.pricing-highlight strong{line-height:1.45}
+.pricing-package{max-width:none;padding:17px 19px 18px;border-radius:15px;border:1px solid rgba(255,168,112,.22);background:linear-gradient(115deg,rgba(255,148,89,.10),rgba(175,97,255,.07));display:flex;flex-direction:column;gap:5px}
+.pricing-package-eyebrow{color:#ffc096;font-size:9px;letter-spacing:1.8px;font-weight:800}
+.pricing-package-title{font-weight:800;font-size:21px;line-height:1.2;letter-spacing:-.5px;color:#fff8ff}
+.pricing-package p{color:#d0bfdc;font-size:11.5px;line-height:1.6;margin:1px 0 0}
+@media(max-width:750px){.pricing-package{padding:17px 17px 18px}.pricing-highlight strong{font-size:11.5px}}
+@media(max-width:410px){.pricing-package-title{font-size:20px}}
+</style>
+</head>
 <body>
 <header class="hero" id="inicio">
 <div class="glow g1"></div><div class="glow g2"></div>
@@ -535,6 +595,51 @@
 <div aria-hidden="true" class="ribbon ribbon-reverse"><div class="ribbon-inner"><span>FAÇA PARTE DESSA HISTÓRIA ✦</span><span>SEU MOMENTO É AGORA ✦</span><span>UMA CONQUISTA PARA COMPARTILHAR ✦</span><span>FAÇA PARTE DESSA HISTÓRIA ✦</span></div></div>
 
 <!-- Data e contagem regressiva: antes do cadastro de interesse -->
+
+<!-- Valores / Celebre Experience — informado pela Ingá Formaturas -->
+<section class="pricing-section" id="valores" aria-labelledby="pricingTitle">
+  <div class="shell">
+    <div class="pricing-layout">
+      <div class="pricing-intro">
+        <div class="section-kicker">PACOTES DE FOTOGRAFIAS</div>
+        <h2 id="pricingTitle">Você vive o momento.<br><span>As fotos ficam.</span></h2>
+        <p>Escolha como quer guardar essa conquista. Temos diferentes pacotes de fotografias para o seu ensaio de formatura.</p>
+        <div class="pricing-highlights" aria-label="Benefícios da experiência fotográfica">
+          <div class="pricing-highlight">
+            <span class="pricing-highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m2.5 9 9.5-4.5L21.5 9 12 13.5 2.5 9Z"/><path d="M6 11v4.3c0 2.7 12 2.7 12 0V11M21.5 9v7"/></svg>
+            </span>
+            <div><strong>Beca disponível para a sessão</strong><span>Uso da beca completa durante as fotos, sem custo adicional.</span></div>
+          </div>
+          <div class="pricing-highlight">
+            <span class="pricing-highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m3 21 10.4-10.4 3 3L6 24" transform="translate(0 -3)"/><path d="m15.5 4 .6 1.9L18 6.5l-1.9.6-.6 1.9-.6-1.9L13 6.5l1.9-.6.6-1.9ZM20 12l.3 1.2 1.2.3-1.2.3L20 15l-.3-1.2-1.2-.3 1.2-.3L20 12Z"/><path d="M8 3v3M6.5 4.5h3"/></svg>
+            </span>
+            <div><strong>Tratamento profissional das imagens</strong><span>Ajustes de luz, cor e acabamento para valorizar cada fotografia.</span></div>
+          </div>
+        </div>
+      </div>
+      <aside class="pricing-offer" aria-label="Valor do pacote inicial de fotografias">
+        <span class="pricing-spark" aria-hidden="true">✦</span>
+        <div class="pricing-offer-eyebrow">PACOTES A PARTIR DE</div>
+        <div class="pricing-amount" aria-label="quatro parcelas de oitenta e oito reais e cinquenta centavos">
+          <span class="pricing-installments">4<small>×</small></span>
+          <span class="pricing-currency">R$</span>
+          <span class="pricing-number">88,50<sup>*</sup></span>
+        </div>
+        <p class="pricing-payment">no cartão de crédito</p>
+        <div class="pricing-separator"></div>
+        <div class="pricing-package">
+          <span class="pricing-package-eyebrow">* PACOTE INICIAL</span>
+          <strong class="pricing-package-title">10 fotos digitais</strong>
+          <p>Imagens selecionadas pelo formando.</p>
+        </div>
+        <a href="#reservar" class="pricing-cta">Quero viver essa experiência <span aria-hidden="true">↗</span></a>
+      </aside>
+    </div>
+    <p class="pricing-extra"><span aria-hidden="true">✦</span> Também oferecemos pacotes com <strong>fotografias impressas</strong>. Consulte nossa equipe durante a sessão para conhecer todas as opções e condições disponíveis.</p>
+  </div>
+</section>
 <section class="next-date" id="nextDate" aria-labelledby="nextDateHeading">
   <div class="shell">
     <div class="date-panel" id="datePanel">
@@ -546,14 +651,14 @@
         </div>
         <div class="date-stamp" aria-label="Sábado, 7 de novembro de 2026 às oito horas, horário de Brasília">
           <div class="date-calendar">
-             <span class="date-month">NOVEMBRO</span>
+            <span class="date-month">NOV</span>
             <time class="date-day" datetime="2026-11-07">07</time>
             <span class="date-year">2026</span>
           </div>
           <div class="date-time">
             <span class="day-name">Sábado</span>
-            <strong class="clock">Agendamentos <br>à partir das 08h</strong>
-            <small>Reserve seu horário!</small>
+            <strong class="clock">08:00</strong>
+            <small>Horário de Brasília</small>
           </div>
         </div>
       </div>
