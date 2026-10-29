@@ -520,7 +520,60 @@
   .date-time .clock{font-size:25px}
   .date-time small{font-size:9.5px;max-width:126px}
 }
-</style></head>
+</style><style>
+
+/* CTA compacto de contato, após dúvidas frequentes — 28/10/2026 */
+.help-contact {
+  position: relative;
+  padding: 0 0 72px;
+  background: #0d0816;
+  overflow: hidden;
+}
+.help-contact .help-contact-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding: 35px clamp(25px, 4vw, 52px);
+  border: 1px solid rgba(204, 170, 239, .18);
+  border-radius: 24px;
+  background:
+    radial-gradient(ellipse 58% 160% at 100% 50%, rgba(130, 66, 221, .21) 0%, transparent 78%),
+    radial-gradient(ellipse 35% 100% at 0% 110%, rgba(255, 146, 88, .055) 0%, transparent 78%),
+    linear-gradient(112deg, #20132f 0%, #160e26 80%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.055), 0 18px 48px rgba(0,0,0,.12);
+}
+.help-contact .help-contact-content { flex: 1; min-width: 0; }
+.help-contact .help-contact-eyebrow {
+  display: block; margin-bottom: 9px; color: #ffac78;
+  font-size: 10px; line-height: 1.5; letter-spacing: 1.8px; font-weight: 800;
+}
+.help-contact h2 { margin: 0; font-size: clamp(23px, 2.3vw, 32px); line-height: 1.25; font-weight: 800; letter-spacing: -.9px; color: #fff9ff; }
+.help-contact p { max-width: 560px; margin: 9px 0 0; font-size: 12px; line-height: 1.7; color: #c3b4d3; }
+.help-contact .help-contact-button {
+  display: inline-flex; align-items: center; justify-content: center; flex: none;
+  padding: 16px 25px; min-height: 51px;
+  border-radius: 15px;
+  background: linear-gradient(100deg, #ffc18a, #ff975e);
+  color: #281439; font-size: 12px; font-weight: 800;
+  text-align: center; white-space: nowrap;
+  transition: transform .2s ease, filter .2s ease;
+  box-shadow: 0 12px 28px rgba(255, 130, 75, .11);
+}
+.help-contact .help-contact-button:hover { transform: translateY(-2px); filter: brightness(1.05); }
+.help-contact .help-contact-button:focus-visible { outline: 3px solid #fff; outline-offset: 4px; }
+@media(max-width:720px) {
+  .help-contact { padding-bottom: 50px; }
+  .help-contact .help-contact-panel { flex-direction: column; align-items: stretch; gap: 21px; padding: 29px 24px 25px; border-radius: 20px; }
+  .help-contact h2 { font-size: clamp(23px, 6.3vw, 30px); }
+  .help-contact p { font-size: 11.5px; }
+  .help-contact .help-contact-button { width: 100%; min-height: 49px; }
+}
+@media(max-width:360px) {
+  .help-contact .help-contact-panel { padding: 26px 19px 21px; }
+}
+</style>
+</head>
 <body>
 <header class="hero" id="inicio">
 <div class="glow g1"></div><div class="glow g2"></div>
@@ -773,6 +826,18 @@
 <details><summary>Quem pode participar?<span class="plus">+</span></summary><p>A experiência é pensada para formandos que desejam celebrar a conquista com familiares ou pessoas especiais.</p></details>
 <details><summary>Como fico sabendo das próximas datas?<span class="plus">+</span></summary><p>Preencha o formulário de interesse. A equipe poderá entrar em contato quando houver informações confirmadas sobre formato, local e disponibilidade.</p></details>
 <details><summary>O cadastro já garante minha vaga?<span class="plus">+</span></summary><p>Não. O preenchimento demonstra interesse e não representa reserva ou contratação. As condições serão informadas pela equipe.</p></details>
+</div>
+</div>
+</section>
+<section aria-labelledby="helpContactHeading" class="help-contact" id="fale-conosco">
+<div class="shell">
+<div class="help-contact-panel">
+<div class="help-contact-content">
+<span class="help-contact-eyebrow">ESTAMOS AQUI PARA AJUDAR</span>
+<h2 id="helpContactHeading">Ficou com alguma dúvida?</h2>
+<p>Nossa equipe está à disposição para esclarecer suas dúvidas sobre a experiência e os agendamentos.</p>
+</div>
+<a class="help-contact-button" href="https://wa.me/5542998241413?text=Ol%C3%A1%21%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20a%20Celebre%20Experience." target="_blank" rel="noopener noreferrer" aria-label="Conversar com a Ingá Formaturas pelo WhatsApp">Conversar no WhatsApp</a>
 </div>
 </div>
 </section>
